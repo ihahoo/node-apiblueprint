@@ -1,0 +1,12 @@
+node_modules
+*.log
+npm-debug.log*
+.npm
+coverage
+build
+build/Release
+.module-cache
+.DS_Store
+.idea
+*.iml
+.vscode

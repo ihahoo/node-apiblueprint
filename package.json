@@ -1,0 +1,33 @@
+{
+  "name": "node-apiblueprint",
+  "version": "1.0.0",
+  "description": "Node.js下使用API Blueprint格式写API文档的工作环境",
+  "scripts": {
+    "build": "npm run clean && mkdirp build && aglio -i src/index.md -o build/index.html",
+    "doc": "aglio -i src/index.md -s",
+    "mock": "drakov -f src/*.md -p 3001",
+    "clean": "rimraf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihahoo/node-apiblueprint.git"
+  },
+  "keywords": [
+    "api",
+    "blueprint",
+    "aglio",
+    "drakov"
+  ],
+  "author": "Ray Guo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihahoo/node-apiblueprint/issues"
+  },
+  "homepage": "https://github.com/ihahoo/node-apiblueprint#readme",
+  "devDependencies": {
+    "aglio": "^2.3.0",
+    "drakov": "^1.0.1",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.4"
+  }
+}

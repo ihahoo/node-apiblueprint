@@ -26,8 +26,8 @@
   "homepage": "https://github.com/ihahoo/node-apiblueprint#readme",
   "devDependencies": {
     "aglio": "^2.3.0",
-    "drakov": "^1.0.1",
+    "drakov": "^1.0.2",
     "mkdirp": "^0.5.1",
-    "rimraf": "^2.5.4"
+    "rimraf": "^2.6.1"
   }
 }

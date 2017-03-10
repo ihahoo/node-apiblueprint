@@ -1,6 +1,6 @@
 {
   "name": "node-apiblueprint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js下使用API Blueprint格式写API文档的工作环境",
   "scripts": {
     "build": "npm run clean && mkdirp build && aglio -i src/index.md -o build/index.html",
